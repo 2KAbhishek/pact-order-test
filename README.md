@@ -20,29 +20,23 @@
 <a href="https://github.com/2KAbhishek/pact-order-test/pulse">
 <img alt="Last Updated" src="https://img.shields.io/github/last-commit/2kabhishek/pact-order-test?style=flat&color=e06c75&label="> </a>
 
-<h3>Short sweet headline with 🎇🎉</h3>
-
-<figure>
-  <img src= "images/screenshot.png" alt="pact-order-test Demo">
-  <br/>
-  <figcaption>pact-order-test screenshot</figcaption>
-</figure>
+<h3>Contract Based Tests with Pact 🧪✅</h3>
 
 </div>
 
 ## What is this
 
-pact-order-test is a `<utility/tool/feature>` that allows `<insert_target_audience>` to do `<action/task_it_does>`.
+Example of Contract Based Tests using Pact on an Order API.
 
 ## Inspiration
 
-pact-order-test was inspired by `<reason/idea>`.
+Was exploring pact, created this for tweaking
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-- You have installed the latest version of `<coding_language/dependency/requirement_1>`
+- You have installed the latest version of `node`
 
 ## Getting pact-order-test
 
@@ -51,51 +45,36 @@ To get pact-order-test, follow these steps:
 ```bash
 git clone https://github.com/2kabhishek/pact-order-test
 cd pact-order-test
-<install_command>
+npm install
 ```
 
 ## Using pact-order-test
 
+[Consumer Specs](./consumer/consumer.spec.js)
+
 ```bash
-USAGE:
-    command [FLAGS] [OPTIONS]
-
-FLAGS:
-    -h, --help              Prints help information.
-
-OPTIONS:
-    -o, --option <value>    Option description.
-    Options are: a, b. [default: a]
-
-Example:
-
-
+node index-consumer.js
 ```
+
+[Provider Specs](./provider/provider.spec.js)
+
+```bash
+node index-provider.js
+```
+
+Generated pact files are stored [here](./pacts)
 
 ## How it was built
 
-pact-order-test was built using `<tech/library>`
-
-## Challenges faced
-
-While building pact-order-test the main challenges were `<issue/difficulty>`
+pact-order-test was built using `nvim`
 
 ## What I learned
 
-While building pact-order-test I `<learned/accomplished>` about `<learning/accomplishment>`
-
-## What's next
-
-Planning to add `<feature/module>`.
+- Learning in progress
 
 ### To-Do
 
-- [x] Setup repo
-- [ ] Think real hard
-- [ ] Start typing
-- [ ] Change me
-- [ ] Update README
-- [ ] Finish it
+- [ ] Add more specs
 
 Hit the ⭐ button if you found this useful.
 
